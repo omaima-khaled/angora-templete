@@ -119,6 +119,10 @@ li a:hover{
     position: relative;
     
 }
+.carousel-inner,.carousel-item {
+    height: auto;
+    
+}
 .cptiontion{
     top: 30%;
     left: 10%;
@@ -492,4 +496,16 @@ textarea:focus{
     }
    
 
+
  }
+ 
+ @media screen and (max-width: 400px) {
+    .carousel-item {
+      height: auto;
+    
+    }
+    .carousel-control-prev,carousel-control-next {
+       display: block;
+       margin: 50px 0px;
+    }
+  }
